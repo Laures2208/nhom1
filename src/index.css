@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+@theme {
+  --color-brand-teal: #2dd4bf;
+  --color-brand-cyan: #22d3ee;
+}
+
+body {
+  @apply bg-[#0a0a0a] text-zinc-100 antialiased selection:bg-teal-500/30;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
